@@ -1,4 +1,4 @@
-package Aulas;
+package Aulas.Aulas_basicas;
 import java.util.Scanner;
 
 public class vetores {

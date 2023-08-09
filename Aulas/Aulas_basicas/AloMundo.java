@@ -1,9 +1,11 @@
-package Aulas;
+package Aulas.Aulas_basicas;
 public class AloMundo{
     public static void main(String[] args){
         
         int num=15, num1=15, res=0;
         String nome="Marcus César";
+        char opc='o';
+        double duplo=1.50;
         res = num+num1;
         
         /*É importante declarar as variaveis com algum valor nelas
@@ -14,6 +16,8 @@ public class AloMundo{
         System.out.println("Hello World");
         System.out.printf("Nome %s%nAno: %d%n","Cesinha",2023);
         System.out.printf("Valor da variavel num: %d%n%s", num, nome);
+        System.out.printf("Valor da variavel num: %c%n",opc);
+        System.out.printf("Valor da variavel num: %f%n",duplo);
 
     }
 }

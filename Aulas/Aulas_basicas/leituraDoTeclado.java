@@ -1,4 +1,4 @@
-package Aulas;
+package Aulas.Aulas_basicas;
 import java.util.Scanner;
 
 public class leituraDoTeclado {
@@ -12,7 +12,7 @@ public class leituraDoTeclado {
     //final double pi = 3.14; forma de declarar constante
 
     System.out.println("Digite seu nome: ");
-    nome=scan.next();
+    nome=scan.nextLine();
     System.out.println("Seu nome é " + nome);
 
     System.out.println("Digite um numeral: ");
