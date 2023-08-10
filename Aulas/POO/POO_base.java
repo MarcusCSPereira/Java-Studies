@@ -2,7 +2,7 @@ package Aulas.POO;
 import java.util.Scanner;
 //o POO é uma classe, mas suponha que esta escrito Aluno ai.
 //não existe main na classe
-public class POO {
+public class POO_base {
 
         //atributos
         String nome;
@@ -29,7 +29,7 @@ public class POO {
         //Isto pode ser feito no mesmo arquivo ou arquivo separados.
         
         //instanciar o objeto:
-        POO aluno1 = new POO();
+        POO_base aluno1 = new POO_base();
         Scanner scan = new Scanner(System.in);
 
         try{
