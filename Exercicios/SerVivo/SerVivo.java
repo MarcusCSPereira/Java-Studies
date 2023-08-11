@@ -7,6 +7,7 @@ public interface SerVivo {
     */
     //metodos obrigatorios declarados na interface
     public void mover();
-    public void comer(int massa);
+    public void comer(Vegetal vegetal,int massa, int peso);
+    public void atacar(Animal defensor);
     public void info();
 }
