@@ -1,0 +1,192 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AloMundo",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.AloMundo",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEmFuncao",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.ArraysAdvanced.ArrayEmFuncao",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Passagens",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.ArraysAdvanced.Passagens",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.ArraysAdvanced.Principal",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "BreakEContinue",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.BreakEContinue",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "MainArguments",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.MainArguments",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "comandDecis",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.comandDecis",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "leituraDoTeclado",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.leituraDoTeclado",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "matriz",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.matriz",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "vetores",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.vetores",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "vetores2",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.vetores2",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "JavaFx",
+            "request": "launch",
+            "mainClass": "Aulas.Interfaces.JavaFx",
+            "projectName": "Java_estudos_c4d7925c",
+            "vmArgs": "--module-path \"C:/Users/Usuário/Desktop/Programação/github/Java_estudos/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Joption_pane",
+            "request": "launch",
+            "mainClass": "Aulas.Interfaces.Joption_pane",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "A_SupAndSubClass",
+            "request": "launch",
+            "mainClass": "Aulas.POO.A_SupAndSubClass",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Classes",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Classes",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Construtores2",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Construtores2",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Heranca1",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Heranca1",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Metodos",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Metodos",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "POO_base",
+            "request": "launch",
+            "mainClass": "Aulas.POO.POO_base",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Principal(1)",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Protected.Principal",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "Exercicios.Calculadora.Calculadora",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "CursoJava",
+            "request": "launch",
+            "mainClass": "Exercicios.Desafio_Interface.CursoJava",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "JogoDaVelha",
+            "request": "launch",
+            "mainClass": "Exercicios.JogoDaVelha.JogoDaVelha",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "TesteDeFormatacao",
+            "request": "launch",
+            "mainClass": "Exercicios.JogoDaVelha.TesteDeFormatacao",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "MeioAmbiente",
+            "request": "launch",
+            "mainClass": "Exercicios.SerVivo.MeioAmbiente",
+            "projectName": "Java_estudos_c4d7925c"
+        }
+    ]
+}
