@@ -4,8 +4,69 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Ex009",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex009",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex010",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex010",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex007",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex007",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex006",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex006",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex005",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex005",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex004",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex004",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex003",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex003",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex002",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex002",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex001",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex001",
+            "projectName": "Java_estudos_c4d7925c"
+        },
         {
             "type": "java",
             "name": "Current File",
