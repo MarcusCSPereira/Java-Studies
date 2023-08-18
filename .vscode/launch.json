@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.teste",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
+            "name": "Ex002_Estilizado",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex002_Estilizado",
+            "projectName": "Java_estudos_c4d7925c"
+        },
+        {
+            "type": "java",
             "name": "Ex009",
             "request": "launch",
             "mainClass": "ExerciciosFacul.Lista_1.Ex009",
