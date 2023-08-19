@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Exercicios.TreinoGUI.App",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Ex002_Estilizado",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex002_Estilizado",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Ex002",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex002",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Ex004",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex004",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "teste",
             "request": "launch",
             "mainClass": "ExerciciosFacul.Lista_1.teste",
