@@ -213,7 +213,8 @@ public class Login {
             String senhaUsuario = senhaDigitada; // Armazenar senha
             frame.dispose(); // Fechar a janela de login
             Principal principal = new Principal(nomeUsuario, senhaUsuario);
-            principal.mostrarJanela(); // Mostrar nova janela
+            principal.mostrarJanela();// Mostrar nova janela
+            System.exit(0);
         } else {
             JOptionPane.showMessageDialog(null, "Senha incorreta", "Confirmação", JOptionPane.WARNING_MESSAGE);
             campoSenha.setText("");
