@@ -4,15 +4,17 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class App {
+public class Login {
         
     private static JTextField campoNome;
     private static JPasswordField campoSenha;
+    private static JFrame frame;
 
     public static void main(String[] args) {
 
+
         //criando o frame
-        JFrame frame = new JFrame("Login Screen");
+        frame = new JFrame("Login Screen");
         {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // seta o tratamento na tentativa de fechar
             frame.setUndecorated(true); // seta o frame sem os botões de cime
@@ -28,7 +30,7 @@ public class App {
                 panel1.setPreferredSize(new Dimension(400, 300));
                 panel1.setLayout(new GridBagLayout());// define o painel um com layout GBL;
                 // posicionando painel1
-                GridBagConstraints gridBagConstraints1 = new GridBagConstraints();//esse se torna o GBL do painel 1 esta relacionado a linha 12_1
+                GridBagConstraints gridBagConstraints1 = new GridBagConstraints();//esse se torna o GBL do painel 1 esta relacionado a linha 120
                 gridBagConstraints1.gridx = 0;
                 gridBagConstraints1.gridy = 0;
                 gridBagConstraints1.fill = GridBagConstraints.BOTH;
@@ -51,16 +53,16 @@ public class App {
                     gridBagConstraints2.weightx = 1.0;
                     panel1.add(panel2, gridBagConstraints2);//posicionando painel 2 com essas caracteristicas no layout da linha 29;
 
-                    JLabel label2_1 = new JLabel();
-                    label2_1.setFont(new Font("Segoe UI", 1, 40));
-                    label2_1.setHorizontalAlignment(SwingConstants.CENTER);
-                    label2_1.setText("Login Screen:");//personalização do label
+                    JLabel label1_2 = new JLabel();
+                    label1_2.setFont(new Font("Segoe UI", 1, 40));
+                    label1_2.setHorizontalAlignment(SwingConstants.CENTER);
+                    label1_2.setText("Login Screen:");//personalização do label
                     GridBagConstraints gridBagConstraintsL1 = new GridBagConstraints(); // cria o construtor desse label para posiciona-ló no layout definido na linha 44.
                     gridBagConstraintsL1.gridx = 0;
                     gridBagConstraintsL1.gridy = 0;
                     gridBagConstraintsL1.fill = GridBagConstraints.BOTH;
                     gridBagConstraintsL1.weightx = 1.0;
-                    panel2.add(label2_1, gridBagConstraintsL1);//posicionando label1 com essas caracteristicas no layout da linha 45;
+                    panel2.add(label1_2, gridBagConstraintsL1);//posicionando label1 com essas caracteristicas no layout da linha 45;
                 }     
                 // panel 3:
                 JPanel panel3 = new JPanel();
@@ -190,9 +192,7 @@ public class App {
     }
 
     
-
-
-
+    
     private static void campoNomeActionPerformed(ActionEvent evt) {
         JTextField campo = (JTextField) evt.getSource();
         String textoDigitado = campo.getText();
@@ -208,13 +208,18 @@ public class App {
     
     private static void jButton1ActionPerformed(ActionEvent evt) {
         String senhaDigitada = new String(campoSenha.getPassword());
-        if(campoNome.getText().trim().equals("admin") && senhaDigitada.equals("admin")){
-            JOptionPane.showMessageDialog(null, "Login feito com sucesso", "Confirmação",JOptionPane.PLAIN_MESSAGE);
-            System.exit(0);
-        }else{
-            JOptionPane.showMessageDialog(null, "Usuário ou senha incorretos", "Confirmação",JOptionPane.WARNING_MESSAGE);
+        if (senhaDigitada.equals("admin")) {
+            String nomeUsuario = campoNome.getText(); // Armazenar nome de usuário
+            String senhaUsuario = senhaDigitada; // Armazenar senha
+            frame.dispose(); // Fechar a janela de login
+            Principal principal = new Principal(nomeUsuario, senhaUsuario);
+            principal.mostrarJanela(); // Mostrar nova janela
+        } else {
+            JOptionPane.showMessageDialog(null, "Senha incorreta", "Confirmação", JOptionPane.WARNING_MESSAGE);
+            campoSenha.setText("");
         }
     }
+
 
     private static void jButton2ActionPerformed(ActionEvent evt) {
         int controle = JOptionPane.showConfirmDialog(null, "Tem certeza que deseja sair do programa?", "Cuidado", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE,null);
