@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex010",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex010",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex009",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex009",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex008",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex008",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex007",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex007",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex006",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex006",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex005",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex005",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex004",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex004",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex003",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex003",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex002",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex002",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex001",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista03.ex001",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Q_001",
+            "request": "launch",
+            "mainClass": "Q_001",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex008",
+            "request": "launch",
+            "mainClass": "ex008",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex006",
+            "request": "launch",
+            "mainClass": "ex006",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex005",
+            "request": "launch",
+            "mainClass": "ex005",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex004",
+            "request": "launch",
+            "mainClass": "ex004",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex003",
+            "request": "launch",
+            "mainClass": "ex003",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex002",
+            "request": "launch",
+            "mainClass": "ex002",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "ex001",
+            "request": "launch",
+            "mainClass": "ex001",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "Principal",
             "request": "launch",
             "mainClass": "Exercicios.TreinoGUI.src.Principal",
