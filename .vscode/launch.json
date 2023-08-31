@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TratamentosDeErros",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.TratamentosDeErros",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.ArraysAdvanced.Arraylist",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "exercicio010",
             "request": "launch",
             "mainClass": "Exercicios.ExerciciosFacul.Lista04.exercicio010",
