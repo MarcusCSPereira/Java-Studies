@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ep001",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.Strings.Ep001",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "AloMundo",
+            "request": "launch",
+            "mainClass": "Aulas.Aulas_basicas.AloMundo",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "TratamentosDeErros",
             "request": "launch",
             "mainClass": "Aulas.Aulas_basicas.TratamentosDeErros",

@@ -1,4 +1,4 @@
-package Aulas.Aulas_basicas;
+package Aulas.Aulas_basicas.Basico;
 import java.security.SecureRandom;
 
 import javax.swing.JOptionPane;

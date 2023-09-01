@@ -1,4 +1,4 @@
-package Aulas.Aulas_basicas;
+package Aulas.Aulas_basicas.Basico;
 public class comandDecis{
 
     public static void main(String[] args){
