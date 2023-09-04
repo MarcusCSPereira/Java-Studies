@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Substituindo_arquivos",
+            "request": "launch",
+            "mainClass": "Aulas.Trabalhando_com_arquivos.Substituindo_arquivos",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Arquivos",
+            "request": "launch",
+            "mainClass": "Aulas.Trabalhando_com_arquivos.Arquivos",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "Ep001",
             "request": "launch",
             "mainClass": "Aulas.Aulas_basicas.Strings.Ep001",
