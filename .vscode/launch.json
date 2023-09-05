@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Math_learning",
+            "request": "launch",
+            "mainClass": "Aulas.Classe_Math.Math_learning",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "Lambda_Learning",
+            "request": "launch",
+            "mainClass": "Aulas.Funcoes_Lambda.Lambda_Learning",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "HashSet_learning",
+            "request": "launch",
+            "mainClass": "Aulas.HashMap_HashSet.HashSet_learning",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
+            "name": "HashMap_learning",
+            "request": "launch",
+            "mainClass": "Aulas.HashMap_HashSet.HashMap_learning",
+            "projectName": "Java_estudos_335bc81a"
+        },
+        {
+            "type": "java",
             "name": "Stack_Estudos",
             "request": "launch",
             "mainClass": "Aulas.Stack_e_Queue.Stack_Estudos",
