@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exercicio009",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista04.exercicio009",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "JogoDaVelha",
+            "request": "launch",
+            "mainClass": "Exercicios.JogoDaVelha.JogoDaVelha",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
             "name": "Math_learning",
             "request": "launch",
             "mainClass": "Aulas.Classe_Math.Math_learning",
