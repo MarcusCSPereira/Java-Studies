@@ -9,15 +9,18 @@ public class exercicio005 {
 
         System.out.println("Digite sua mensagem com espaços em excesso:");
         teste = scan.nextLine();
-        String substring = teste.substring(2);
-        System.out.println(substring);
+        String[] partes = teste.split(" ");
+        System.out.println(partes.length);
+        int corte = partes.length -1;
+        System.out.println(corte);
+        String output = partes[corte].toUpperCase() + ", ";
 
-        StringBuilder builder = new StringBuilder(teste);
-        String testeInvertido = builder.reverse().toString();
-        System.out.println(testeInvertido);
+        for(int i =0;i<partes.length-1;i++){
+            output+= partes[i].charAt(0) + ". ";
+        }
+        System.out.println(output.toUpperCase());
 
-        teste = teste.replaceAll("\\s+", " ");
-        System.out.println(teste);
+
         scan.close();
     }
 }

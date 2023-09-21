@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A_SupAndSubClass",
+            "request": "launch",
+            "mainClass": "Aulas.POO.A_SupAndSubClass",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Aula1",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.AP2_Pratica.Aula_1.Aula1",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "TreinoGUI.src.Principal",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Aula1",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.AP2_Pratica.Aula1",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Teste1",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.AP2_Pratica.Teste1",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.AP2_Pratica.App",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Classes",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Classes",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
             "name": "testes",
             "request": "launch",
             "mainClass": "ExerciciosFacul.Lista04.testes",
