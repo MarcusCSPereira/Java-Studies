@@ -1,4 +1,4 @@
-package Exercicios.JogoDaVelha;
+package JogoDaVelha;
 
 import javax.swing.JOptionPane;
 

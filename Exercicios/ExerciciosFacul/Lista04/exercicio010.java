@@ -1,4 +1,4 @@
-package Exercicios.ExerciciosFacul.Lista04;
+package ExerciciosFacul.Lista04;
 
 import java.util.Scanner;
 
@@ -7,23 +7,16 @@ public class exercicio010 {
         String nome;
         String email="@empresa.com.br";
         Scanner scan = new Scanner(System.in);
+        String prefixoEmail="";
 
         System.out.println("Digite seu nome:");
         nome=scan.nextLine();
 
         String[] part = nome.split(" ");
-        StringBuilder build = new StringBuilder();
-
-        for(String partes: part){
-            if(!partes.equals("")){
-                build.append(partes.charAt(0));
-            }
+        for(String p:part){
+            prefixoEmail+=p.toLowerCase().charAt(0);
         }
-       
-        build.append(email);
-        String emailCompleto = build.toString().toLowerCase();
-        System.out.println(emailCompleto);
-        scan.close();
-
+            System.out.println(prefixoEmail.concat(email));
+            scan.close();
     }
 }

@@ -1,4 +1,4 @@
-package Exercicios.JogoDaVelha;
+package JogoDaVelha;
 
 public class Marcar {
     

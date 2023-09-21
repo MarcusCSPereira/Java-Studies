@@ -1,4 +1,4 @@
-package Exercicios.SerVivo;
+package SerVivo;
 
 public class Formiga extends Animal{
 

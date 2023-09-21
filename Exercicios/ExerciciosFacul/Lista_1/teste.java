@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import java.awt.GridLayout;
 
-public class Ex002 {
+public class teste {
     public static void main(String[] args) {
         JPanel panel = new JPanel(new GridLayout(3, 2));
         JTextField field1 = new JTextField();

@@ -1,4 +1,4 @@
-package Exercicios.Desafio_Interface;
+package Desafio_Interface;
 
 import javax.swing.JOptionPane;
 

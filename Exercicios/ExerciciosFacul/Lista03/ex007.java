@@ -1,4 +1,4 @@
-package Exercicios.ExerciciosFacul.Lista03;
+package ExerciciosFacul.Lista03;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -42,13 +42,13 @@ public class ex007 {
                     int n1 = Integer.parseInt(field.getText());
                     String result="aa";
                     int cont=0;
-                    for(int n=2;n<n1;n++){
+                    for(int n=0;n<n1;n++){
                         if(n1%n==0){
                             cont++;
-                            break;
+                            System.out.println(cont);
                         }
                     }
-                    if(cont==0){
+                    if(cont==1){
                         result = "é Primo";
                     }else{
                         result = "não é primo";

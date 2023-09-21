@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testes",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.testes",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "eX008",
+            "request": "launch",
+            "mainClass": "eX008",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "ex010",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista03.ex010",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "ex007",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista03.ex007",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "ex006",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista03.ex006",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Arquivos",
+            "request": "launch",
+            "mainClass": "Aulas.Trabalhando_com_arquivos.Arquivos",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "TreinoGUI.src.Login",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "LoadingScreen",
+            "request": "launch",
+            "mainClass": "TreinoGUI.src.LoadingScreen",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "Ex002_Estilizado",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.Ex002_Estilizado",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "CursoJava",
+            "request": "launch",
+            "mainClass": "Desafio_Interface.CursoJava",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista_1.teste",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio010",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio010",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio009",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio009",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio007",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio007",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio006",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio006",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio005",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio005",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio003",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio003",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio002",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.Lista04.exercicio002",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
+            "name": "exercicio002",
+            "request": "launch",
+            "mainClass": "Exercicios.ExerciciosFacul.Lista04.exercicio002",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
             "name": "exercicio009",
             "request": "launch",
             "mainClass": "Exercicios.ExerciciosFacul.Lista04.exercicio009",

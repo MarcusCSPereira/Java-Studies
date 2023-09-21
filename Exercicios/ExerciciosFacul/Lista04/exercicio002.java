@@ -1,14 +1,22 @@
-package Exercicios.ExerciciosFacul.Lista04;
+package ExerciciosFacul.Lista04;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class exercicio002 {
     public static void main(String[] args) {
         
+        Scanner scan = new Scanner(System.in);
         String msg="";
-    
-        msg = JOptionPane.showInputDialog(null, "Digite sua mensagem" , null, JOptionPane.QUESTION_MESSAGE);
+        String gsm="";
+        System.out.println("Digite uma mensagem: ");
+        msg = scan.nextLine();
 
-        JOptionPane.showMessageDialog(null, String.format("A sua String invertida é: %s", new StringBuilder(msg).reverse().toString()), null, JOptionPane.PLAIN_MESSAGE);
+        for(int i = msg.length()-1;i>=00;i--){
+            gsm += msg.charAt(i);
+        }
+        scan.close();
+        System.out.printf("Sua String invertida é: %s%n",gsm);
+        
+
     }
 }

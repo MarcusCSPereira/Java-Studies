@@ -1,4 +1,4 @@
-package Exercicios.ExerciciosFacul.Lista03;
+package ExerciciosFacul.Lista03;
 
 public class ex003 {
     public static void main(String[] args) {

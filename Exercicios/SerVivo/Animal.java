@@ -1,4 +1,4 @@
-package Exercicios.SerVivo;
+package SerVivo;
 
 abstract class Animal implements SerVivo{
     

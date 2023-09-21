@@ -1,4 +1,4 @@
-package Exercicios.SerVivo;
+package SerVivo;
 
 public interface SerVivo {
     

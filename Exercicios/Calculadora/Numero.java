@@ -1,4 +1,4 @@
-package Exercicios.Calculadora;
+package Calculadora;
 
 public class Numero {
     

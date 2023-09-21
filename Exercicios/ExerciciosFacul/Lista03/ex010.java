@@ -1,4 +1,4 @@
-package Exercicios.ExerciciosFacul.Lista03;
+package ExerciciosFacul.Lista03;
 
 import javax.swing.*;
 

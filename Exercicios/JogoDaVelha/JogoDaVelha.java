@@ -1,4 +1,4 @@
-package Exercicios.JogoDaVelha;
+package JogoDaVelha;
 
 import java.util.Scanner;
 import java.security.SecureRandom;

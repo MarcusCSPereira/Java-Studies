@@ -1,4 +1,4 @@
-package Exercicios.SerVivo;
+package SerVivo;
 
 public class Sapo extends Animal{
     

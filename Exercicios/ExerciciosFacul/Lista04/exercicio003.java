@@ -1,16 +1,27 @@
-package Exercicios.ExerciciosFacul.Lista04;
+package ExerciciosFacul.Lista04;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class exercicio003 {
     public static void main(String[] args) {
-        String msg="",gsm="",resp="não é um palindromo";
-    
-        msg = JOptionPane.showInputDialog(null, "Digite sua mensagem" , null, JOptionPane.QUESTION_MESSAGE);
-        gsm = new StringBuilder(msg).reverse().toString();
-        if(msg.equals(gsm)){
-            resp="é um palindromo";
+        
+        Scanner scan = new Scanner(System.in);
+        String msg="";
+        String gsm="";
+        System.out.println("Digite uma mensagem: ");
+        msg = scan.nextLine();
+
+        for(int i = msg.length()-1;i>=0;i--){
+            gsm += msg.charAt(i);
         }
-        JOptionPane.showMessageDialog(null, String.format("A sua String %s", resp), null, JOptionPane.PLAIN_MESSAGE);
+        scan.close();
+        if(gsm.equals(msg)){
+            System.out.println("É um palindromo");
+        }else{
+            System.out.println("Não é um palindromo");
+        }
+        System.out.printf("Sua String invertida é:%s%n",gsm);
+        
+
     }
 }

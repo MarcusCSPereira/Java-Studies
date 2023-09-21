@@ -1,24 +1,27 @@
-package Exercicios.ExerciciosFacul.Lista04;
+package ExerciciosFacul.Lista04;
 
 import java.util.Scanner;
 
 public class exercicio006 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite uma string: ");
-        String input = scanner.nextLine();
-        
-        System.out.print("Digite a letra que deseja contar: ");
-        char letter = scanner.next().charAt(0);
-        
-        int count = 0;
-        for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(i) == letter) {
-                count++;
+        Scanner scan = new Scanner(System.in);
+        String teste="";
+        int controle=0;
+        char caracter=' ';
+        System.out.println("Digite ma String:");
+        teste = scan.nextLine();       
+        System.out.println("Digite um caracter:");
+        caracter = scan.nextLine().charAt(0);
+
+        for(int i = 0;i<teste.length();i++){
+            if(teste.charAt(i) == caracter){
+                controle++;
             }
         }
-        
-        System.out.println("A letra '" + letter + "' aparece " + count + " vezes na string.");
-        scanner.close();
+
+        scan.close();
+
+        System.out.println(controle);
+
     }
 }

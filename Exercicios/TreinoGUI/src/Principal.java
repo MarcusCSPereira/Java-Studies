@@ -1,4 +1,4 @@
-package Exercicios.TreinoGUI.src;
+package TreinoGUI.src;
 
 import javax.swing.*;
 

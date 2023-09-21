@@ -1,22 +1,24 @@
-package Exercicios.ExerciciosFacul.Lista04;
+package ExerciciosFacul.Lista04;
 
 import java.util.Scanner;
 
 public class exercicio005 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite uma string com espaços em excesso: ");
-        String input = scanner.nextLine();
+        String teste;
+        Scanner scan = new Scanner(System.in);
 
-        String result = removeExcessSpaces(input);
-        
-        System.out.println("String com espaços reduzidos: " + result);
-        scanner.close();
-    }
+        System.out.println("Digite sua mensagem com espaços em excesso:");
+        teste = scan.nextLine();
+        String substring = teste.substring(2);
+        System.out.println(substring);
 
-    public static String removeExcessSpaces(String str) {
-        str = str.trim();  // Remover espaços no início e no final
-        str = str.replaceAll("\\s+", " ");  // Substituir múltiplos espaços por um único espaço
-        return str;
+        StringBuilder builder = new StringBuilder(teste);
+        String testeInvertido = builder.reverse().toString();
+        System.out.println(testeInvertido);
+
+        teste = teste.replaceAll("\\s+", " ");
+        System.out.println(teste);
+        scan.close();
     }
 }
+
