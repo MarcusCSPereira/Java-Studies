@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ExerciciosFacul.AP2_Pratica.Aula_2.App",
+            "projectName": "Java_estudos_554b5687"
+        },
+        {
+            "type": "java",
             "name": "A_SupAndSubClass",
             "request": "launch",
             "mainClass": "Aulas.POO.A_SupAndSubClass",
