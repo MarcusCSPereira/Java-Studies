@@ -1,0 +1,22 @@
+Exemplo: Nome da empresa: Cesi Games
+
+Comercial: com.cesigames
+Governamental: gov.cesigames
+Código Aberto: org.cesigames
+Estudos: edu.cesigames
+
+packages do src:
+
+//Classes de model: classes que representam domínio de uma aplicação:Pessoa, Nota Fiscal, etc.
+//Classes de service: classes que contém regras de negócio e validação de um sistema.
+//Classes de repository: classes que contém uma interação com o banco de dados.
+//Classes de controller: classes que possuem a finalidade de disponibilizar conexão externa a aplicação, tipo http,
+// web ou webservices.
+//Classes de utility: classes que possuem recursos comuns à toda a aplicação.
+
+Endereçamento: Ex: Classe Usuario
+com.controle.acesso.model.Usuario
+
+
+
+
